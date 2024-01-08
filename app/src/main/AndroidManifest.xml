@@ -13,8 +13,11 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".tuan312.tuan312MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".tuan3.tuan31MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,9 +29,7 @@
             android:exported="false" />
         <activity
             android:name=".tuan2.tuan22MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".tuan1.tuan11MainActivity"
             android:exported="true" />
